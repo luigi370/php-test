@@ -44,7 +44,7 @@ header('Content-Type: text/html; charset=UTF-8');
 <head>
     <meta charset="UTF-8">
     <title>VAT Code Validation Result</title>
-    <link rel="stylesheet" href="../public/styles.css">
+    <link rel="stylesheet" href="../public/assets/styles.css">
 </head>
 <body>
 <h2>File Upload VAT Code Validation Results</h2>

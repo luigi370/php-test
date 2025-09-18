@@ -26,7 +26,7 @@ header('Content-Type: text/html; charset=UTF-8');
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../public/styles.css">
+    <link rel="stylesheet" href="../public/assets/styles.css">
     <title>VAT Code Validation Result</title>
 </head>
 <body>
