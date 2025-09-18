@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>File Upload Form</title>
+</head>
+<body>
+<h2>File Upload Form</h2>
+
+<form action="../src/file-upload-submit.php" method="POST" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="csvFile">Select a file to upload:</label>
+        <input type="file" name="csvFile" id="csvFile" accept=".csv" required>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Process Vat Codes from file" name="submit">
+    </div>
+</form>
+<a href="index.html">Go back</a>
+
+</body>
+</html>
