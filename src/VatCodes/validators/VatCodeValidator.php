@@ -1,6 +1,6 @@
 <?php
 
-namespace src\validators;
+namespace src\VatCodes\validators;
 
 use InvalidArgumentException;
 
@@ -29,9 +29,5 @@ class VatCodeValidator
         }
 
         return true;
-    }
-
-    public function getRegex() {
-        return $this->regex;
     }
 }

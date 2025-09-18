@@ -3,7 +3,7 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 use src\core\common\utils\FilesUtils;
-use src\services\VatCodeService;
+use src\VatCodes\services\VatCodeService;
 
 $service = new VatCodeService();
 

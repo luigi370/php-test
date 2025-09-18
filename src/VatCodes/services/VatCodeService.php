@@ -1,9 +1,9 @@
 <?php
 
-namespace src\services;
+namespace src\VatCodes\services;
 
-use src\repositories\VatCodeRepository;
-use src\validators\VatCodeValidator;
+use src\VatCodes\repositories\VatCodeRepository;
+use src\VatCodes\validators\VatCodeValidator;
 
 class VatCodeService
 {

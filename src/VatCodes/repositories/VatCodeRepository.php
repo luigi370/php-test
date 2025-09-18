@@ -1,6 +1,6 @@
 <?php
 
-namespace src\repositories;
+namespace src\VatCodes\repositories;
 
 use src\core\DatabaseConnection;
 

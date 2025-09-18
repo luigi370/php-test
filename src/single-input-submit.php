@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use src\services\VatCodeService;
+use src\VatCodes\services\VatCodeService;
 
 $singleInput = isset($_POST["singleInput"]) ? $_POST["singleInput"] : '';
 $service = new VatCodeService();
